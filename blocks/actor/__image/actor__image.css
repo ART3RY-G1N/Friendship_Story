@@ -1,0 +1,8 @@
+.actor__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    opacity: 1;
+    transition: opacity 1s ease;
+}

@@ -1,0 +1,25 @@
+.actors__cast {
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .actors__cast {
+        width: calc(100% - 30px);
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .actors__cast {
+        width: calc(100% - 20px);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .actors__cast {
+        width: calc(100% - 14px);
+    }
+}

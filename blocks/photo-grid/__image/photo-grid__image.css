@@ -1,0 +1,9 @@
+.photo-grid__image {
+    object-fit: cover;
+    width: 100%;
+    transition: transform 1s linear 0.1ms;
+}
+
+.photo-grid__image:hover {
+    transform: scale(1.3);
+}

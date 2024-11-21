@@ -1,0 +1,29 @@
+.logo__name {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(144, 43, 43, 0.952);
+    white-space: nowrap;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .logo__name {
+        font-size: 25px;
+        -webkit-text-stroke-width: 1px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .logo__name {
+        font-size: 20px;
+        -webkit-text-stroke-width: 1px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .logo__name {
+        font-size: 15px;
+        -webkit-text-stroke-width: 0;
+    }
+}

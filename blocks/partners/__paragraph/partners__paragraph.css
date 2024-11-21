@@ -1,0 +1,28 @@
+.partners__paragraph {
+    font-size: 30px;
+    line-height: 2;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .partners__paragraph {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .partners__paragraph {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 500px) {
+    .partners__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .partners__paragraph {
+        font-size: 12px;
+    }
+}

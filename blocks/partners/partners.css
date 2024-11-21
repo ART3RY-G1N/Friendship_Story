@@ -1,0 +1,26 @@
+.partners {
+    width: calc(100% - 40px);
+    padding-left: 20px;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .partners {
+        width: calc(100% - 30px);
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .partners {
+        width: calc(100% - 20px);
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .partners {
+        width: calc(100% - 14px);
+        padding-left: 7px;
+    }
+}

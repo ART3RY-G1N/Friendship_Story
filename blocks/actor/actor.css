@@ -1,0 +1,33 @@
+.actor {
+    position: relative;
+    text-align: center;
+    width: calc(33% - 5px);
+    height: auto;
+    overflow: hidden;
+}
+
+.actor:hover .actor__image {
+    opacity: 0.2;
+}
+
+.actor:hover .actor__info {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .actor {
+        width: calc((100% - 5px) / 3);
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .actor {
+        width: calc(33% - 5px);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .actor {
+        width: calc(33% - 4px);
+    }
+}

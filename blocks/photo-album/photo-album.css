@@ -1,0 +1,22 @@
+.photo-album {
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .photo-album {
+         margin-top: 50px;
+    }
+ }
+ 
+ @media screen and (min-width: 425px) and (max-width: 768px) {
+     .photo-album {
+         margin-top: 30px;
+    }
+ }
+ 
+ @media screen and (max-width: 425px) {
+     .photo-album {
+         margin-top: 20px;
+    }
+ }

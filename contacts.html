@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Контакты</title>
+        <link rel="icon" href="./images/artery.jpg">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="./pages/contacts.css">
+    </head>
+    <body class="root">
+        <header class="header">
+            <div class="logo">
+                <img class="logo__image" src="./images/artery.jpg" alt="Artery Logo">
+                <p class="logo__name">Sleepless Artery</p>
+            </div>
+            <nav class="menu">
+                <a href="index.html" class="menu__link">Главная</a>
+                <a href="about.html" class="menu__link">О проекте</a>
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </nav>
+        </header>
+        <main class="content">
+            <section class="contacts">
+                <h1 class="contacts__title">Напишите нам:</h1>
+                <form class="contact-form">
+                    <label for="name" class="contact-form__label">Имя:</label>
+                    <input type="text" id="name" class="contact-form__input">
+                    <label for="email" class="contact-form__label">E-mail:</label>
+                    <input type="email" id="email" class="contact-form__input">
+                    <label for="message" class="contact-form__label">Сообщение:</label>
+                    <textarea id="message" class="contact-form__textarea"></textarea>
+                    <input type="submit" value="Отправить" class="contact-form__button">
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&COPY; Artery Gin</p>
+        </footer>
+    </body>
+</html>
