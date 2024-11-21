@@ -21,13 +21,13 @@
 @media screen and (min-width: 425px) and (max-width: 500px) {
     .intro__title {
         font-size: 36px;
-        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 0;
     }
 }
 
 @media screen and (max-width: 425px) {
     .intro__title {
         font-size: 24px;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 0;
     }
 }
